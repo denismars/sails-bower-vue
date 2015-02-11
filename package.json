@@ -1,8 +1,8 @@
 {
-  "name": "apollo",
+  "name": "Sails Bower Vue",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "A Sails application",
   "keywords": [],
   "dependencies": {
     "ejs": "~0.8.4",
@@ -31,10 +31,10 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Mars/apollo.git"
+    "url": "git@github.com:denismars/sails-bower-vue.git"
   },
-  "author": "Mars",
-  "license": "",
+  "author": "Denis Mars",
+  "license": "MIT license",
   "devDependencies": {
     "coffee-script": "^1.8.0",
     "grunt-bower-task": "^0.4.0",
