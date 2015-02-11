@@ -1,0 +1,34 @@
+{
+    "name": "sails-bower-vue",
+    "version": "0.0.0",
+    "authors": [
+        "Denis Mars"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "*",
+        "bootstrap": "~3.3.2",
+        "vue": "~0.11.5"
+    },
+    "exportsOverride": {
+        "jquery": {
+            "js/dependencies": "dist/jquery.js"
+        },
+        "bootstrap": {
+            "js/vendors/": "dist/js/bootstrap.js",
+            "styles": "dist/css/*.*",
+            "fonts": "dist/fonts/*.*"
+        },
+        "vue": {
+            "js/vendors": "dist/vue.js"
+        }
+    }
+}
